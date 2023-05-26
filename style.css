@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.rowOne, .rowTwo{
+    /* outline: 2px solid red; */
+    display: flex;
+    margin: .25em;
+}
+
+.box{
+    width: 33.3333%;
+    height: 100%;
+    margin: .25em;
+}
+
+img{
+    position: relative;
+    max-height: 40vh;
+    align-self: center;
+}
+
+span{
+    outline: 2px solid green;
+    display: block;
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: .5em;
+}
+
+.bart{
+    background-color: tan;
+}
+
+.lisa{
+    background-color: sandybrown;
+}
